@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <header class="Header">
+      <div class="HeaderContainer">
+      </div>
+    </header>
+
+    <main class="Layout">
+      <div class="LayoutContainer">
+        <h1 class="title">Login</h1>
+
+        <form id="loginForm" class="login-form">
+          <div class="form-group">
+            <input type="text" placeholder="Type your email address" class="form-control" />
+          </div>
+          <div class="form-group">
+  <div class="input-icon">
+    <input type="password" id="passwordField" placeholder="Password" autocomplete="new-password" class="form-control" />
+    <span class="input-icon-addon">
+      <button type="button" id="togglePassword" class="password-toggle-btn" aria-label="Toggle password visibility">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+          <path d="M8 4a4 4 0 0 0-3.995 3.8A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.995-3.301A4 4 0 0 0 8 4zm0 6a1.5 1.5 0 0 1-1.493-1.356l.07-.214A3.5 3.5 0 0 1 8 6.5a3.5 3.5 0 0 1 1.423 6.743l-.071.214A1.5 1.5 0 0 1 8 10z"/>
+          <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0l12 12a.5.5 0 0 1-.708.708l-12-12a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </button>
+    </span>
+  </div>
+</div>
+          <div class="form-group">
+  <div class="form-label">
+    <a href="javascript:void(0)" id="forgotPassword">Forgot Password?</a>
+  </div>
+</div>
+          <button type="submit" class="kt-button">LOG IN</button>
+        </form>
+
+<p class="register-block">
+  <a href="javascript:void(0)" class="signup-button">Sign Up</a>
+</p>
+
+
+        <hr class="divider" />
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
